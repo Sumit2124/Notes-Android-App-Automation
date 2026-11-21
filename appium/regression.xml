@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Notes regression" parallel="classes" thread-count="4">
+    <test name="Regression tests">
+        <classes>
+            <class name="com.notes.tests.CreateNotesTest"/>
+            <class name="com.notes.tests.EditTodoTest"/>
+            <class name="com.notes.tests.SortAndEditNotesTest"/>
+            <class name="com.notes.tests.InputValidationTest"/>
+        </classes>
+    </test>
+</suite>

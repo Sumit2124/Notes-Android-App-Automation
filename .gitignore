@@ -1,0 +1,17 @@
+# Android and Gradle build output
+**/build/
+**/.gradle/
+**/local.properties
+
+# Maven and Allure output
+**/target/
+**/.allure/
+**/allure-results/
+**/allure-report/
+**/test-output/
+
+# IDE and operating system files
+**/.idea/
+*.iml
+.DS_Store
+*.log
